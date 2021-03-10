@@ -2,6 +2,8 @@ public class App {
 
     // main function
     public static void main(String[] args) throws Exception {
+        System.out.println("AnotherFano - V1.0");
+
         // getting the instance of the server (singleton)
         Server server = Server.getInstance();
 
